@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-06T08:26:58.607690",
+    "last_updated": "2026-03-06T09:02:12.107435",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -325,9 +325,9 @@
           "planned_tss_delta": 2.25,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 1.05,
+          "next_week_load": 1.29,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -362,7 +362,7 @@
     "p_max": 850,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-06T08:26:58.606913",
+    "calculation_timestamp": "2026-03-06T09:02:12.106623",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -887,12 +887,23 @@
       "duration_formatted": "57m",
       "workout_summary": null,
       "description": "Warmup\n- Hello abomai let's prepare for this threshold build 9m 70% pace\n\nMain Set\n- Interval one 10m 88% pace\n- Recovery 2m 60% pace\n- Interval two 10m 93% pace\n- Recovery 2m 60% pace\n- Interval three 10m 98% pace\n- Recovery 2m 60% pace\n- Interval four 6m 102% pace\n\nCooldown\n- Great work abomai on that progressive build 6m 60% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 96811277,
+      "date": "2026-03-13",
+      "name": "IntervalCoach - Endurance",
+      "type": "WORKOUT",
+      "planned_tss": 39,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m",
+      "workout_summary": "9m @150W | 5\u00d77m30s @169W / 30s rec | 2m @169W | 6m @136W",
+      "description": "Warmup\n- Hi abomai let's get the legs moving for this endurance ride 9m ramp 45-70% 90rpm\n\nMain Set\n5x\n- Endurance Base 7m 30s 65% 90rpm\n- Tempo Touch 30s 82% 95rpm\n\n- Intermediate Steady 2m 65% 90rpm\n\nCooldown\n- Great work abomai keep the legs supple as we finish 6m ramp 60-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 2,
-    "patternA": 1,
+    "attempted": 7,
+    "success": 3,
+    "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 2,
     "bail_no_match": 4
