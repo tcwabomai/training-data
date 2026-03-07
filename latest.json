@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-07T08:52:18.246951",
+    "last_updated": "2026-03-07T09:20:09.103317",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -317,9 +317,9 @@
           "planned_tss_delta": 2.53,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 1.29,
+          "next_week_load": 1.76,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -354,7 +354,7 @@
     "p_max": 850,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-07T08:52:18.246119",
+    "calculation_timestamp": "2026-03-07T09:20:09.102478",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -879,15 +879,26 @@
       "duration_formatted": "57m",
       "workout_summary": "9m @150W | 5\u00d77m30s @169W / 30s rec | 2m @169W | 6m @136W",
       "description": "Warmup\n- Hi abomai let's get the legs moving for this endurance ride 9m ramp 45-70% 90rpm\n\nMain Set\n5x\n- Endurance Base 7m 30s 65% 90rpm\n- Tempo Touch 30s 82% 95rpm\n\n- Intermediate Steady 2m 65% 90rpm\n\nCooldown\n- Great work abomai keep the legs supple as we finish 6m ramp 60-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 96984716,
+      "date": "2026-03-14",
+      "name": "IntervalCoach - Endurance",
+      "type": "WORKOUT",
+      "planned_tss": 76,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": null,
+      "description": "Warmup\n- 13m ramp 60-80% pace\n\nMain Set\n- Endurance 63m ramp 70-80% pace\n\nCooldown\n- 9m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 3,
     "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 4.69,
