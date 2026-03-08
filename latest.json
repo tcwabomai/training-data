@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-08T09:50:01.734795",
+    "last_updated": "2026-03-08T10:16:08.337566",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -354,7 +354,7 @@
     "p_max": 850,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-08T09:50:01.733988",
+    "calculation_timestamp": "2026-03-08T10:16:08.336753",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -793,17 +793,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 96262000,
-      "date": "2026-03-08",
-      "name": "IntervalCoach - Endurance",
-      "type": "WORKOUT",
-      "planned_tss": 41,
-      "duration_hours": 0.95,
-      "duration_formatted": "57m",
-      "workout_summary": null,
-      "description": "Warmup\n- Hi abomai let's get those legs moving for this aerobic session 9m ramp 40-70% 90rpm\n\nMain Set\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 6m 65% 90rpm\n\nCooldown\n- Great job abomai enjoy the recovery 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 97121283,
       "date": "2026-03-08",
       "name": "Progressive Threshold Run",
@@ -813,6 +802,17 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hello abomai let's start with a steady build 9m 70% pace\n\nMain Set\n- Initial Block 15m 75% pace\n- Middle Block 15m 85% pace\n- Threshold Finish 15m 98% pace\n\nCooldown\n- Great work abomai keep it moving to flush the legs 6m 60% pace"
+    },
+    {
+      "id": 97129602,
+      "date": "2026-03-08",
+      "name": "IntervalCoach - Endurance",
+      "type": "WORKOUT",
+      "planned_tss": 41,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- 9m ramp 40-75%\n\nMain Set\n- Endurance 45m ramp 56-75%\n\nCooldown\n- 6m ramp 56-40%\n\n[Weekly Plan - Build]"
     },
     {
       "id": 96311181,
@@ -892,15 +892,15 @@
       "description": "Warmup\n- 13m ramp 60-80% pace\n\nMain Set\n- Endurance 63m ramp 70-80% pace\n\nCooldown\n- 9m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 97129602,
+      "id": 96262000,
       "date": "2026-03-15",
       "name": "IntervalCoach - Endurance",
       "type": "WORKOUT",
       "planned_tss": 41,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "duration_hours": 0.95,
+      "duration_formatted": "57m",
       "workout_summary": null,
-      "description": "Warmup\n- 9m ramp 40-75%\n\nMain Set\n- Endurance 45m ramp 56-75%\n\nCooldown\n- 6m ramp 56-40%\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hi abomai let's get those legs moving for this aerobic session 9m ramp 40-70% 90rpm\n\nMain Set\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 6m 65% 90rpm\n\nCooldown\n- Great job abomai enjoy the recovery 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
