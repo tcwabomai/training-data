@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-10T08:59:12.306201",
+    "last_updated": "2026-03-10T09:47:04.926598",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -317,9 +317,9 @@
           "planned_tss_delta": 2.35,
           "hard_sessions_planned": 8,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.43,
           "plan_coverage_current_week": 1.6,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -354,7 +354,7 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-10T08:59:12.305378",
+    "calculation_timestamp": "2026-03-10T09:47:04.925803",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -835,14 +835,36 @@
       "duration_formatted": "57m",
       "workout_summary": null,
       "description": "Warmup\n- Hi abomai let's get those legs moving for this aerobic session 9m ramp 40-70% 90rpm\n\nMain Set\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 6m 65% 90rpm\n\nCooldown\n- Great job abomai enjoy the recovery 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 97615837,
+      "date": "2026-03-17",
+      "name": "IntervalCoach - Max Effort Intervals",
+      "type": "WORKOUT",
+      "planned_tss": 69,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m",
+      "workout_summary": "5m | 4m | 3\u00d710m / 4m rec | 6m",
+      "description": "Warmup\n- Hi abomai let's ease in today 5m 65% pace\n- 4m 75% pace\n\n3x\n- 10m 100% pace\n- 4m 70% pace\n\nCooldown\n- Great work abomai recover well 6m 65% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 97615839,
+      "date": "2026-03-17",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Russian Twist: 3 sets \u00d7 20 reps (10 each side) (Optional: hold weight or medicine ball) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 3,
-    "patternA": 2,
+    "attempted": 7,
+    "success": 4,
+    "patternA": 3,
     "patternB": 1,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 3
   },
   "weekly_summary": {
