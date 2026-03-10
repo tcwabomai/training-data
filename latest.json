@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-10T22:51:32.665863",
+    "last_updated": "2026-03-10T23:18:53.684917",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -117,10 +117,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.72,
-      "atl": 51.84,
-      "tsb": -14.12,
-      "ramp_rate": 3.39,
+      "ctl": 36.19,
+      "atl": 43.19,
+      "tsb": -7.0,
+      "ramp_rate": 1.86,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -289,9 +289,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
@@ -299,6 +299,7 @@
         "2026-03-05",
         "2026-03-07",
         "2026-03-08",
+        "2026-03-09",
         "2026-03-10"
       ],
       "completed_dates": [
@@ -321,11 +322,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.25,
-          "hard_sessions_planned": 9,
+          "planned_tss_delta": 2.78,
+          "hard_sessions_planned": 7,
           "race_proximity": null,
           "next_week_load": 0.43,
-          "plan_coverage_current_week": 1.8,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "mixed",
@@ -361,13 +362,13 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-10T22:51:32.665052",
+    "calculation_timestamp": "2026-03-10T23:18:53.684105",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -811,28 +812,6 @@
       "description": "-15m 60-70% HR Warmup\n\n3x\n- 12m 85-90% HR Climb\n- 6m 60-70% HR Recover\n\n-35m 70-80% HR Endurance\n\n-10m <65% HR Cooldown"
     },
     {
-      "id": 96311181,
-      "date": "2026-03-10",
-      "name": "IntervalCoach - Threshold",
-      "type": "WORKOUT",
-      "planned_tss": 65,
-      "duration_hours": 0.95,
-      "duration_formatted": "57m",
-      "workout_summary": "9m | 3\u00d710m / 4m rec | 6m",
-      "description": "Warmup\n- Hello abomai let's get ready for this threshold session 9m 70% pace\n\nMain Set\n3x\n- Threshold effort 10m 98% pace\n- Recovery jog 4m 65% pace\n\nCooldown\n- Great work abomai you nailed those threshold blocks 6m 60% pace\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 96311182,
-      "date": "2026-03-10",
-      "name": "IntervalCoach - Lower Body Strength",
-      "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Russian Twist: 3 sets \u00d7 20 reps (10 each side) (Optional: hold weight or medicine ball) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 96491612,
       "date": "2026-03-11",
       "name": "IntervalCoach - Endurance",
@@ -922,11 +901,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 5,
-    "patternA": 4,
+    "attempted": 7,
+    "success": 4,
+    "patternA": 3,
     "patternB": 1,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 3
   },
   "weekly_summary": {
