@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-12T08:31:54.588163",
+    "last_updated": "2026-03-12T09:26:36.104040",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -120,10 +120,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.42,
-      "atl": 42.04,
-      "tsb": -5.62,
-      "ramp_rate": 2.46,
+      "ctl": 35.52,
+      "atl": 37.53,
+      "tsb": -2.01,
+      "ramp_rate": 1.57,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -328,9 +328,9 @@
           "planned_tss_delta": 2.4,
           "hard_sessions_planned": 5,
           "race_proximity": null,
-          "next_week_load": 0.67,
+          "next_week_load": 1.15,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -365,7 +365,7 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-12T08:31:54.587344",
+    "calculation_timestamp": "2026-03-12T09:26:36.103227",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -857,15 +857,26 @@
       "duration_formatted": "30m",
       "workout_summary": null,
       "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Russian Twist: 3 sets \u00d7 20 reps (10 each side) (Optional: hold weight or medicine ball) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 98007487,
+      "date": "2026-03-19",
+      "name": "IntervalCoach - Threshold Fartlek",
+      "type": "WORKOUT",
+      "planned_tss": 78,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Threshold Fartlek is up 9m ramp 60-80% pace\n\nMain Set\n- Float 1 4m 92% pace\n- Fartlek Surge 1 2m 95-105% pace\n- Float 2 4m 92% pace\n- Fartlek Surge 2 3m 95-105% pace\n- Float 3 3m 92% pace\n- Fartlek Surge 3 4m 95-105% pace\n- Float 4 3m 92% pace\n- Fartlek Surge 4 3m 95-105% pace\n- Float 5 3m 92% pace\n- Fartlek Surge 5 2m 95-105% pace\n- Float 6 3m 92% pace\n- Fartlek Surge 6 2m 95-105% pace\n- Float 7 3m 92% pace\n- Fartlek Surge 7 3m 95-105% pace\n- Float 8 3m 92% pace\n\nCooldown\n- Awesome work, recover well 6m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 5.03,
