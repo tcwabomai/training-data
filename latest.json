@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-13T08:29:20.716456",
+    "last_updated": "2026-03-13T09:06:26.896234",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -56,7 +56,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.8
+        "value": 1.3
       }
     },
     "signal_summary": {
@@ -111,10 +111,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.2,
-      "atl": 40.96,
-      "tsb": -4.76,
-      "ramp_rate": 3.05,
+      "ctl": 34.69,
+      "atl": 33.35,
+      "tsb": 1.34,
+      "ramp_rate": 1.53,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -319,9 +319,9 @@
           "planned_tss_delta": 2.25,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 1.15,
+          "next_week_load": 1.44,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -356,7 +356,7 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-13T08:29:20.715643",
+    "calculation_timestamp": "2026-03-13T09:06:26.895378",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -793,15 +793,26 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Threshold Fartlek is up 9m ramp 60-80% pace\n\nMain Set\n- Float 1 4m 92% pace\n- Fartlek Surge 1 2m 95-105% pace\n- Float 2 4m 92% pace\n- Fartlek Surge 2 3m 95-105% pace\n- Float 3 3m 92% pace\n- Fartlek Surge 3 4m 95-105% pace\n- Float 4 3m 92% pace\n- Fartlek Surge 4 3m 95-105% pace\n- Float 5 3m 92% pace\n- Fartlek Surge 5 2m 95-105% pace\n- Float 6 3m 92% pace\n- Fartlek Surge 6 2m 95-105% pace\n- Float 7 3m 92% pace\n- Fartlek Surge 7 3m 95-105% pace\n- Float 8 3m 92% pace\n\nCooldown\n- Awesome work, recover well 6m ramp 70-60% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 98206026,
+      "date": "2026-03-20",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "planned_tss": 46,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Endurance ride awaits 9m ramp 45-75%\n\nMain Set\n- Settle In 11m 65-67%\n- Build 11m 67-70%\n- Upper Z2 11m 70-74%\n- Cruise 12m 74-70%\n\nCooldown\n- Excellent work, enjoy the spin 6m ramp 65-45%\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.74,
