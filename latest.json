@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-14T04:18:30.051203",
+    "last_updated": "2026-03-14T05:14:39.826736",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -32,10 +32,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 49,
-        "delta_bpm": null
+        "status": "amber",
+        "value": 53,
+        "baseline_7d": 49.6,
+        "delta_bpm": 3.4
       },
       "sleep": {
         "status": "unavailable",
@@ -61,9 +61,9 @@
     },
     "signal_summary": {
       "green": 3,
-      "amber": 0,
+      "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -73,7 +73,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -160,7 +160,7 @@
     },
     "current_metrics": {
       "weight_kg": 90.0,
-      "resting_hr": 48,
+      "resting_hr": 53,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -170,11 +170,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 51.0,
-    "rhr_baseline_7d": 49,
+    "rhr_baseline_7d": 49.6,
     "hrv_baseline_28d": 49.3,
     "rhr_baseline_28d": 55.0,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 53,
     "acwr": 1.2,
     "acwr_interpretation": "optimal",
     "monotony": 0.87,
@@ -317,12 +317,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.53,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 5.27,
+          "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 1.44,
-          "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "next_week_load": 2.1,
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -357,13 +357,13 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-14T04:18:30.050347",
+    "calculation_timestamp": "2026-03-14T05:14:39.825907",
     "data_quality": {
       "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 26,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -692,7 +692,7 @@
     {
       "date": "2026-03-14",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 53,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -708,6 +708,17 @@
   ],
   "planned_workouts": [
     {
+      "id": 98346158,
+      "date": "2026-03-14",
+      "name": "Threshold",
+      "type": "WORKOUT",
+      "planned_tss": 90,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "12m @140bpm | 3\u00d710m @169bpm / 5m rec | 8m @150bpm | 5m @135bpm",
+      "description": "- 12m 70-75% HR\n\n3x\n- 10m 85-90% HR\n- 5m 70-75% HR\n\n- 8m 75-80% HR\n- 5m <70% HR"
+    },
+    {
       "id": 96984716,
       "date": "2026-03-14",
       "name": "IntervalCoach - Endurance",
@@ -719,6 +730,17 @@
       "description": "Warmup\n- 13m ramp 60-80% pace\n\nMain Set\n- Endurance 63m ramp 70-80% pace\n\nCooldown\n- 9m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 98346237,
+      "date": "2026-03-15",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 10m <70% HR\n- 30m 70-75% HR\n- 5m <70% HR"
+    },
+    {
       "id": 96262000,
       "date": "2026-03-15",
       "name": "IntervalCoach - Endurance",
@@ -728,6 +750,17 @@
       "duration_formatted": "57m",
       "workout_summary": null,
       "description": "Warmup\n- Hi abomai let's get those legs moving for this aerobic session 9m ramp 40-70% 90rpm\n\nMain Set\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 65% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 8m 68% 90rpm\n- Tempo Touch 1m 82% 100rpm\n- Aerobic Base 6m 65% 90rpm\n\nCooldown\n- Great job abomai enjoy the recovery 6m ramp 55-40% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 98346324,
+      "date": "2026-03-16",
+      "name": "Longo",
+      "type": "WORKOUT",
+      "planned_tss": 107,
+      "duration_hours": 1.77,
+      "duration_formatted": "1h46m",
+      "workout_summary": "15m @140bpm | 3\u00d78m @160bpm / 4m rec | 45m @140bpm | 10m @135bpm",
+      "description": "- 15m 70-75% HR\n\n3x\n- 8m 80-85% HR\n- 4m 70-75% HR\n\n- 45m 70-75% HR\n- 10m <70% HR"
     },
     {
       "id": 97615837,
@@ -797,12 +830,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 9,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 5.19,
@@ -810,7 +843,7 @@
     "total_tss": 269,
     "activities_count": 5,
     "avg_hrv": 51.0,
-    "avg_resting_hr": 49.0
+    "avg_resting_hr": 49.6
   },
   "race_calendar": {
     "next_race": null,
