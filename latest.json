@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-15T08:53:02.099409",
+    "last_updated": "2026-03-15T09:24:47.472938",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -66,7 +66,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -11.3
+        "value": 4.0
       }
     },
     "signal_summary": {
@@ -121,10 +121,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.87,
-      "atl": 49.19,
-      "tsb": -11.32,
-      "ramp_rate": 4.15,
+      "ctl": 34.06,
+      "atl": 30.04,
+      "tsb": 4.02,
+      "ramp_rate": 0.34,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -329,9 +329,9 @@
           "planned_tss_delta": 3.37,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": 2.55,
+          "next_week_load": 2.83,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 1.8
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -366,7 +366,7 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-15T08:53:02.098575",
+    "calculation_timestamp": "2026-03-15T09:24:47.472049",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -825,15 +825,26 @@
       "duration_formatted": "1h25m",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai, endurance run awaits! 13m ramp 60-80% pace\n\nMain Set\n- Settle In 21m 70% pace\n- Aerobic 21m 70-80% pace\n- Cruise 21m 80-70% pace\n\nCooldown\n- Great job, abomai, recover well! 9m ramp 70-60% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 98575310,
+      "date": "2026-03-22",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "planned_tss": 46,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Steady endurance ahead. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65-67% 85rpm\n- Build 11m 67-70% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic work, time to recover. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 5.03,
