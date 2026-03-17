@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-17T01:14:12.104526",
+    "last_updated": "2026-03-17T03:43:01.148604",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.2
+        "value": 5.8
       }
     },
     "signal_summary": {
@@ -98,7 +98,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 10,
+    "age_days": 11,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -130,10 +130,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.15,
-      "atl": 40.34,
-      "tsb": -4.19,
-      "ramp_rate": 2.89,
+      "ctl": 33.66,
+      "atl": 27.87,
+      "tsb": 5.79,
+      "ramp_rate": 0.41,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -337,9 +337,9 @@
           "planned_tss_delta": 3.08,
           "hard_sessions_planned": 9,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.28,
           "plan_coverage_current_week": 1.8,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -374,13 +374,13 @@
     "p_max": 849,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-17T01:14:12.103647",
+    "calculation_timestamp": "2026-03-17T03:43:01.147766",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 25,
-      "planned_workouts_7d": 12,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -736,17 +736,6 @@
       "description": "Warmup\n- Hi abomai let's ease in today 5m 65% pace\n- 4m 75% pace\n\n3x\n- 10m 100% pace\n- 4m 70% pace\n\nCooldown\n- Great work abomai recover well 6m 65% pace\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 97615839,
-      "date": "2026-03-17",
-      "name": "IntervalCoach - Lower Body Strength",
-      "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Russian Twist: 3 sets \u00d7 20 reps (10 each side) (Optional: hold weight or medicine ball) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 98830053,
       "date": "2026-03-17",
       "name": "IntervalCoach - Threshold Repeats",
@@ -791,6 +780,17 @@
       "description": "Warmup\n- Hey abomai! Threshold Fartlek is up 9m ramp 60-80% pace\n\nMain Set\n- Float 1 4m 92% pace\n- Fartlek Surge 1 2m 95-105% pace\n- Float 2 4m 92% pace\n- Fartlek Surge 2 3m 95-105% pace\n- Float 3 3m 92% pace\n- Fartlek Surge 3 4m 95-105% pace\n- Float 4 3m 92% pace\n- Fartlek Surge 4 3m 95-105% pace\n- Float 5 3m 92% pace\n- Fartlek Surge 5 2m 95-105% pace\n- Float 6 3m 92% pace\n- Fartlek Surge 6 2m 95-105% pace\n- Float 7 3m 92% pace\n- Fartlek Surge 7 3m 95-105% pace\n- Float 8 3m 92% pace\n\nCooldown\n- Awesome work, recover well 6m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 97615839,
+      "date": "2026-03-20",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Russian Twist: 3 sets \u00d7 20 reps (10 each side) (Optional: hold weight or medicine ball) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 98206026,
       "date": "2026-03-20",
       "name": "IntervalCoach - Endurance Build",
@@ -822,15 +822,37 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Steady endurance ahead. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65-67% 85rpm\n- Build 11m 67-70% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic work, time to recover. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 99024931,
+      "date": "2026-03-24",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "planned_tss": 46,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai, endurance ride today! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65-67% 85rpm\n- Build 11m 67-70% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome work, spin easy now 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 99024933,
+      "date": "2026-03-24",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 3 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 2 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 3 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 3 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 3 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 3 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~30 min]\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 8,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 6
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 3.83,
