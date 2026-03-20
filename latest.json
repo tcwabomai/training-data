@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-20T14:37:30.480828",
+    "last_updated": "2026-03-20T15:26:50.821972",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -336,7 +336,7 @@
         "stream_2": {
           "planned_tss_delta": 2.38,
           "hard_sessions_planned": 4,
-          "race_proximity": null,
+          "race_proximity": 78,
           "next_week_load": 1.22,
           "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.0
@@ -374,7 +374,7 @@
     "p_max": 845,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-20T14:37:30.479994",
+    "calculation_timestamp": "2026-03-20T15:26:50.821030",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -841,8 +841,26 @@
     "avg_resting_hr": 50.7
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "teste",
+      "date": "2026-06-06",
+      "category": "RACE_A",
+      "type": "Ride",
+      "days_until": 78,
+      "moving_time_seconds": 18000,
+      "distance_meters": 130000.0
+    },
+    "all_races": [
+      {
+        "name": "teste",
+        "date": "2026-06-06",
+        "category": "RACE_A",
+        "type": "Ride",
+        "days_until": 78,
+        "moving_time_seconds": 18000,
+        "distance_meters": 130000.0
+      }
+    ],
     "taper_alert": {
       "active": false
     },
