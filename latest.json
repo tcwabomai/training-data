@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-21T01:08:41.932772",
+    "last_updated": "2026-03-21T03:29:12.023132",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -89,7 +89,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 14,
+    "age_days": 15,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -335,9 +335,9 @@
           "planned_tss_delta": 2.57,
           "hard_sessions_planned": 2,
           "race_proximity": 77,
-          "next_week_load": 1.22,
+          "next_week_load": 1.91,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -372,7 +372,7 @@
     "p_max": 845,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-21T01:08:41.931827",
+    "calculation_timestamp": "2026-03-21T03:29:12.022285",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
@@ -832,15 +832,26 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Endurance ride today 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic job, recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 99733058,
+      "date": "2026-03-28",
+      "name": "IntervalCoach - Progressive Threshold Build",
+      "type": "WORKOUT",
+      "planned_tss": 112,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Progressive threshold awaits 15m ramp 60-80% pace\n\nMain Set\n- Endurance 16m 70% pace\n- Build 1 10m 88% pace\n- Jog Recovery 4m 60-70% pace\n- Build 2 10m 95% pace\n- Jog Recovery 4m 60-70% pace\n- Build 3 10m 98% pace\n- Jog Recovery 4m 60-70% pace\n- Build 4 10m 100% pace\n- Endurance 17m 70% pace\n\nCooldown\n- Excellent work, recover well 10m ramp 70-60% pace\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 6.11,
