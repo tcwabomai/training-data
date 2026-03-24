@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-24T01:23:01.313979",
+    "last_updated": "2026-03-24T03:54:03.718777",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -85,7 +85,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 17,
+    "age_days": 18,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -317,11 +317,11 @@
         },
         "stream_2": {
           "planned_tss_delta": 2.56,
-          "hard_sessions_planned": 8,
+          "hard_sessions_planned": 9,
           "race_proximity": 74,
-          "next_week_load": null,
-          "plan_coverage_current_week": 1.6,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.2,
+          "plan_coverage_current_week": 1.8,
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -356,7 +356,7 @@
     "p_max": 845,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-24T01:23:01.312685",
+    "calculation_timestamp": "2026-03-24T03:54:03.717937",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
@@ -796,6 +796,17 @@
       "description": "Warmup\n- Hey abomai! Over-under intervals await 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 8m 65-75% 85rpm\n\n4x\n- Under 3m 91% 88rpm\n- Over 2m 100% 95rpm\n- Recovery 3m 55% 80rpm\n\nRecovery\n- Over 4 2m 100% 95rpm\n- Endurance 8m 65-75% 85rpm\n\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 100364170,
+      "date": "2026-03-26",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 99567863,
       "date": "2026-03-27",
       "name": "IntervalCoach - Endurance Build",
@@ -827,14 +838,36 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai, endurance ride awaits! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, abomai, great job! 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 100364187,
+      "date": "2026-03-31",
+      "name": "IntervalCoach - VO2max Intervals",
+      "type": "WORKOUT",
+      "planned_tss": 32,
+      "duration_hours": 0.43,
+      "duration_formatted": "26m",
+      "workout_summary": "9m @156W | 6\u00d71m @273W / 1m rec | 5m @143W",
+      "description": "Warmup\n- Hey abomai! Criss-Cross is ready! 9m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n\n\n\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 100364188,
+      "date": "2026-03-31",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 7,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 4,
     "bail_no_match": 6
   },
   "weekly_summary": {
