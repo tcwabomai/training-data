@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T01:25:04.906863",
+    "last_updated": "2026-03-29T04:15:19.297680",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -55,13 +55,13 @@
         "value": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -24.6
+        "status": "green",
+        "value": -14.3
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 3,
+      "amber": 0,
       "red": 0,
       "unavailable": 4
     },
@@ -73,13 +73,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 22,
+    "age_days": 23,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -111,10 +111,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 47.48,
-      "atl": 72.09,
-      "tsb": -24.61,
-      "ramp_rate": 6.78,
+      "ctl": 44.91,
+      "atl": 59.17,
+      "tsb": -14.26,
+      "ramp_rate": 4.21,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -318,9 +318,9 @@
           "planned_tss_delta": 1.94,
           "hard_sessions_planned": 1,
           "race_proximity": 69,
-          "next_week_load": 2.38,
+          "next_week_load": 2.65,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -355,7 +355,7 @@
     "p_max": 845,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T01:25:04.906034",
+    "calculation_timestamp": "2026-03-29T04:15:19.296834",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -825,15 +825,26 @@
       "duration_formatted": "4h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Threshold fartlek awaits! 5m 60% pace\n- 5m 70% pace\n- 5m 80% pace\n\nMain Set\n- Float 1 17m 80% pace\n- Fartlek Surge 1 2m 95-105% pace\n- Float 2 17m 80% pace\n- Fartlek Surge 2 3m 95-105% pace\n- Float 3 17m 80% pace\n- Fartlek Surge 3 4m 95-105% pace\n- Float 4 17m 80% pace\n- Fartlek Surge 4 3m 95-105% pace\n- Float 5 17m 80% pace\n- Fartlek Surge 5 2m 95-105% pace\n- Float 6 17m 80% pace\n- Fartlek Surge 6 2m 95-105% pace\n- Float 7 17m 80% pace\n- Fartlek Surge 7 3m 95-105% pace\n- Float 8 17m 80% pace\n- Fartlek Surge 8 4m 95-105% pace\n- Float 9 17m 80% pace\n- Fartlek Surge 9 3m 95-105% pace\n- Float 10 17m 80% pace\n- Fartlek Surge 10 2m 95-105% pace\n- Float 11 17m 80% pace\n\nCooldown\n- 5m 70% pace\n- Fantastic work, abomai! Enjoy the recovery. 5m 60% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 101180783,
+      "date": "2026-04-05",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Long aerobic ride today 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 6.46,
