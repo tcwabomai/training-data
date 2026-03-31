@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-31T08:15:05.397810",
+    "last_updated": "2026-03-31T09:18:56.612719",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -365,7 +365,7 @@
     "p_max": 843,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-31T08:15:05.396979",
+    "calculation_timestamp": "2026-03-31T09:18:56.611869",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -749,7 +749,7 @@
       "description": "Warmup\n- Hey abomai! Long aerobic ride today 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 101677176,
+      "id": 101728444,
       "date": "2026-04-07",
       "name": "IntervalCoach - Threshold Repeats",
       "type": "WORKOUT",
@@ -757,10 +757,10 @@
       "duration_hours": 0.43,
       "duration_formatted": "26m",
       "workout_summary": "9m @156W | 6\u00d71m @273W / 1m rec | 5m @143W",
-      "description": "Warmup\n- Hey abomai, let's get ready for Criss-Cross! 9m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n\n\n\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey abomai! Criss-Cross Intervals incoming! 9m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n\n\n\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 101677177,
+      "id": 101728445,
       "date": "2026-04-07",
       "name": "IntervalCoach - Lower Body Strength",
       "type": "WORKOUT",
