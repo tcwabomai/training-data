@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-31T01:23:00.439302",
+    "last_updated": "2026-03-31T04:12:06.300093",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -66,7 +66,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -5.1
+        "value": -1.6
       }
     },
     "signal_summary": {
@@ -89,7 +89,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 24,
+    "age_days": 25,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -121,17 +121,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 43.83,
-      "atl": 48.97,
-      "tsb": -5.14,
-      "ramp_rate": 0.69,
+      "ctl": 42.82,
+      "atl": 44.46,
+      "tsb": -1.64,
+      "ramp_rate": -0.32,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 250.3,
-      "w_prime": 20303,
+      "eftp": 249.8,
+      "w_prime": 20263,
       "w_prime_kj": 20.3,
-      "p_max": 845,
+      "p_max": 843,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -328,9 +328,9 @@
           "planned_tss_delta": 3.1,
           "hard_sessions_planned": 7,
           "race_proximity": 67,
-          "next_week_load": null,
+          "next_week_load": 0.2,
           "plan_coverage_current_week": 1.4,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -359,13 +359,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 250.3,
-    "w_prime": 20303,
+    "eftp": 249.8,
+    "w_prime": 20263,
     "w_prime_kj": 20.3,
-    "p_max": 845,
+    "p_max": 843,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-31T01:23:00.438433",
+    "calculation_timestamp": "2026-03-31T04:12:06.299246",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -747,14 +747,36 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Long aerobic ride today 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 101677176,
+      "date": "2026-04-07",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "planned_tss": 32,
+      "duration_hours": 0.43,
+      "duration_formatted": "26m",
+      "workout_summary": "9m @156W | 6\u00d71m @273W / 1m rec | 5m @143W",
+      "description": "Warmup\n- Hey abomai, let's get ready for Criss-Cross! 9m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n\n\n\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 101677177,
+      "date": "2026-04-07",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 4
   },
   "weekly_summary": {
