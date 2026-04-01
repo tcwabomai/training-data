@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-01T06:53:39.086802",
+    "last_updated": "2026-04-01T08:09:43.406557",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -302,17 +302,17 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.17,
     "consistency_details": {
       "planned_days": 6,
       "completed_days": 2,
-      "matched_days": 2,
+      "matched_days": 1,
       "planned_dates": [
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-03-29",
-        "2026-03-31",
+        "2026-03-30",
         "2026-04-01"
       ],
       "completed_dates": [
@@ -374,13 +374,13 @@
     "p_max": 842,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-01T06:53:39.085946",
+    "calculation_timestamp": "2026-04-01T08:09:43.405702",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 25,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
