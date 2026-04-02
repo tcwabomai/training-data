@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-02T14:17:17.249253",
+    "last_updated": "2026-04-02T15:32:34.005720",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -318,11 +318,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.3,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 4.87,
+          "hard_sessions_planned": 6,
           "race_proximity": 65,
           "next_week_load": 0.78,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.8
         },
         "data_quality": "mixed",
@@ -358,13 +358,13 @@
     "p_max": 841,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-02T14:17:17.248391",
+    "calculation_timestamp": "2026-04-02T15:32:34.004852",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 25,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -661,6 +661,17 @@
       "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 102154124,
+      "date": "2026-04-02",
+      "name": "IntervalCoach - Tempo Intervals",
+      "type": "WORKOUT",
+      "planned_tss": 53,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai, tempo intervals incoming! 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 1m 65-75% 85rpm\n- Tempo 1 14m 76-80% 90rpm\n- Recovery 3m 55% 85rpm\n- Tempo 2 12m 77-81% 90rpm\n- Recovery 3m 55% 85rpm\n- Tempo 3 10m 78-82% 90rpm\n- Endurance 2m 65-75% 85rpm\n\nCooldown\n- Awesome work, recover well 6m ramp 65-45% 85rpm"
+    },
+    {
       "id": 100870677,
       "date": "2026-04-03",
       "name": "IntervalCoach - Endurance Build",
@@ -739,12 +750,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 2.97,
