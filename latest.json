@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-04T00:01:21.974977",
+    "last_updated": "2026-04-04T03:14:06.962109",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -41,8 +41,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -51,10 +51,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.3,
-        "delta_bpm": null
+        "status": "amber",
+        "value": 55,
+        "baseline_7d": 51.9,
+        "delta_bpm": 3.1
       },
       "sleep": {
         "status": "unavailable",
@@ -80,9 +80,9 @@
     },
     "signal_summary": {
       "green": 1,
-      "amber": 2,
+      "amber": 3,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -91,14 +91,25 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 1 green, 2 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "rhr",
+        "acwr",
+        "feel"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P2 signal count. 3 amber (rhr, acwr, feel) >= threshold 3.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 28,
+    "age_days": 29,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -167,7 +178,7 @@
     },
     "current_metrics": {
       "weight_kg": 90.0,
-      "resting_hr": 51,
+      "resting_hr": 55,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -177,11 +188,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 51.0,
-    "rhr_baseline_7d": 51.3,
+    "rhr_baseline_7d": 51.9,
     "hrv_baseline_28d": 52.0,
-    "rhr_baseline_28d": 51,
+    "rhr_baseline_28d": 51.1,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 55,
     "acwr": 0.6,
     "acwr_interpretation": "undertraining",
     "monotony": 1.02,
@@ -326,9 +337,9 @@
           "planned_tss_delta": 6.65,
           "hard_sessions_planned": 2,
           "race_proximity": 63,
-          "next_week_load": 1.06,
+          "next_week_load": 2.1,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -363,10 +374,10 @@
     "p_max": 840,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-04T00:01:21.974156",
+    "calculation_timestamp": "2026-04-04T03:14:06.961231",
     "data_quality": {
       "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 24,
       "planned_workouts_7d": 7,
@@ -690,7 +701,7 @@
     {
       "date": "2026-04-04",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 55,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -781,12 +792,23 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Steady endurance ride ahead. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Well done, abomai! Enjoy the spin. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 102379992,
+      "date": "2026-04-11",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "planned_tss": 169,
+      "duration_hours": 2.38,
+      "duration_formatted": "2h22m30s",
+      "workout_summary": "3 \u00d7 5m | 11\u00d78m / 30s rec | 4m | 30m",
+      "description": "Warmup\n- Hey abomai! Sustained threshold run today. 5m 60% pace\n- 5m 70% pace\n- 5m 80% pace\n\nMain Set\n11x\n- Endurance 8m 80% pace\n- Z2 Pickup 30s 93-101% pace\n\nRecovery\n- Endurance 4m 80% pace\n- Sustained Threshold 30m 102% pace\n\n\n\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
     "bail_no_match": 5
@@ -797,7 +819,7 @@
     "total_tss": 236,
     "activities_count": 4,
     "avg_hrv": 51.0,
-    "avg_resting_hr": 51.3
+    "avg_resting_hr": 51.9
   },
   "race_calendar": {
     "next_race": {
