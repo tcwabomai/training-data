@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-05T01:26:13.622171",
+    "last_updated": "2026-04-05T04:15:36.890589",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -41,8 +41,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -74,13 +74,13 @@
         "value": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -21.9
+        "status": "green",
+        "value": 2.4
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 3,
+      "green": 2,
+      "amber": 2,
       "red": 0,
       "unavailable": 3
     },
@@ -91,25 +91,14 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "acwr",
-        "feel",
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 3 amber (acwr, feel, tsb) >= threshold 3.",
+    "modification": null,
+    "reason": "P3 green light. 2 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 29,
+    "age_days": 30,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -135,17 +124,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 49.17,
-      "atl": 71.06,
-      "tsb": -21.89,
-      "ramp_rate": 4.26,
+      "ctl": 43.12,
+      "atl": 40.71,
+      "tsb": 2.41,
+      "ramp_rate": -1.78,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 249.1,
-      "w_prime": 20202,
+      "eftp": 248.6,
+      "w_prime": 20162,
       "w_prime_kj": 20.2,
-      "p_max": 840,
+      "p_max": 839,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -343,9 +332,9 @@
           "planned_tss_delta": 1.94,
           "hard_sessions_planned": 1,
           "race_proximity": 62,
-          "next_week_load": 2.1,
+          "next_week_load": 2.38,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -374,13 +363,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 249.1,
-    "w_prime": 20202,
+    "eftp": 248.6,
+    "w_prime": 20162,
     "w_prime_kj": 20.2,
-    "p_max": 840,
+    "p_max": 839,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-05T01:26:13.621301",
+    "calculation_timestamp": "2026-04-05T04:15:36.889722",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -842,15 +831,26 @@
       "duration_formatted": "2h22m30s",
       "workout_summary": "3 \u00d7 5m | 11\u00d78m / 30s rec | 4m | 30m",
       "description": "Warmup\n- Hey abomai! Sustained threshold run today. 5m 60% pace\n- 5m 70% pace\n- 5m 80% pace\n\nMain Set\n11x\n- Endurance 8m 80% pace\n- Z2 Pickup 30s 93-101% pace\n\nRecovery\n- Endurance 4m 80% pace\n- Sustained Threshold 30m 102% pace\n\n\n\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 102516641,
+      "date": "2026-04-12",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Endurance and spin-ups await. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome work, abomai! Enjoy the spin down. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.45,
