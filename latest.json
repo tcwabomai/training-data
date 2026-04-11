@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-11T02:11:59.276608",
+    "last_updated": "2026-04-11T04:28:59.163991",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 0.7
+        "value": 4.9
       }
     },
     "signal_summary": {
@@ -98,7 +98,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-06",
-    "age_days": 35,
+    "age_days": 36,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -136,10 +136,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 43.82,
-      "atl": 43.11,
-      "tsb": 0.71,
-      "ramp_rate": -0.32,
+      "ctl": 42.78,
+      "atl": 37.92,
+      "tsb": 4.86,
+      "ramp_rate": -1.36,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -344,9 +344,9 @@
           "planned_tss_delta": 4.62,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 0.96,
+          "next_week_load": 1.67,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -381,7 +381,7 @@
     "p_max": 837,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-11T02:11:59.275808",
+    "calculation_timestamp": "2026-04-11T04:28:59.163126",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -834,15 +834,26 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "Warmup\n- Hey abomai! Progressive aerobic session awaits. 9m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 15m 65% 85rpm\n- Z2 Mid 15m 69% 88rpm\n- Z2 Upper 15m 73% 90rpm\n\nCooldown\n- Well done, abomai! Spin easy now. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Base]"
+    },
+    {
+      "id": 103636544,
+      "date": "2026-04-18",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "planned_tss": 115,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- Hey abomai! Long aerobic ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 42m 65% 85rpm\n- Z2 Mid 42m 69% 88rpm\n- Z2 Upper 41m 73% 90rpm\n\nCooldown\n- Fantastic ride, abomai! Relax and recover. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Base]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.62,
