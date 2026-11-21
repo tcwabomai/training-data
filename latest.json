@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-21T17:41:26.605316",
+    "last_updated": "2026-11-21T22:22:51.311767",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -33,9 +33,9 @@
       },
       "rhr": {
         "status": "amber",
-        "value": 55,
-        "baseline_7d": 51.4,
-        "delta_bpm": 3.6
+        "value": 56,
+        "baseline_7d": 51.6,
+        "delta_bpm": 4.4
       },
       "sleep": {
         "status": "green",
@@ -52,7 +52,7 @@
       },
       "ri": {
         "status": "amber",
-        "value": 0.77
+        "value": 0.76
       },
       "tsb": {
         "status": "green",
@@ -171,7 +171,7 @@
     },
     "current_metrics": {
       "weight_kg": 86.699,
-      "resting_hr": 55,
+      "resting_hr": 56,
       "hrv": 41.0,
       "sleep_quality": 2,
       "sleep_hours": 9.03,
@@ -179,13 +179,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.77,
+    "recovery_index": 0.76,
     "hrv_baseline_7d": 49.9,
-    "rhr_baseline_7d": 51.4,
+    "rhr_baseline_7d": 51.6,
     "hrv_baseline_28d": 49.5,
     "rhr_baseline_28d": 51.6,
     "latest_hrv": 41.0,
-    "latest_rhr": 55,
+    "latest_rhr": 56,
     "acwr": 0.84,
     "acwr_interpretation": "optimal",
     "monotony": 0.79,
@@ -357,7 +357,7 @@
     "p_max": 1130,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-21T17:41:26.604496",
+    "calculation_timestamp": "2026-11-21T22:22:51.311172",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -772,7 +772,7 @@
     {
       "date": "2026-11-21",
       "weight_kg": null,
-      "resting_hr": 55,
+      "resting_hr": 56,
       "hrv_rmssd": 41.0,
       "hrv_sdnn": null,
       "sleep_hours": 9.03,
@@ -801,7 +801,7 @@
     "total_tss": 246,
     "activities_count": 6,
     "avg_hrv": 49.9,
-    "avg_resting_hr": 51.4
+    "avg_resting_hr": 51.6
   },
   "race_calendar": {
     "next_race": null,
